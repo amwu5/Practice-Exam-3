@@ -8,3 +8,5 @@
 [node name="player" parent="." instance=ExtResource("1_kqmto")]
 
 [node name="enemy" parent="." instance=ExtResource("2_shjv3")]
+
+[connection signal="body_entered" from="player" to="player" method="_on_body_entered"]
